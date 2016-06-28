@@ -96,7 +96,7 @@ var ReactScriptLoader = {
         			}, 0);
       			}
     		};
-		
+
 		document.body.appendChild(script);
 	},
 	componentWillUnmount: function(key, scriptURL) {
@@ -138,6 +138,3 @@ var ReactScriptLoaderMixin = {
 		return this.__reactScriptLoaderID;
 	},
 };
-
-exports.ReactScriptLoaderMixin = ReactScriptLoaderMixin;
-exports.ReactScriptLoader = ReactScriptLoader;
